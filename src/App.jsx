@@ -1,4 +1,5 @@
 import { useState } from "react";
+// add my photo
 import AboutImg from "./assets/img.jpeg";
 // casual dress
 import Casual1 from "./assets/Casual/Casual1.jpg";
@@ -13,10 +14,10 @@ import Sportwear1 from "./assets/Sportwear/Sportwear1.jpg"; //Sportswear
 import Sportwear2 from "./assets/Sportwear/Sportwear3.jpg";
 import Sportwear3 from "./assets/Sportwear/Sportwear2.jpg";
 import Sportwear4 from "./assets/Sportwear/Sportwear4.jpg";
-import Polos1 from "./assets/Polos/Polos1.jpg"; //fORMAL DRESS
-import Polos2 from "./assets/Polos/Polos2.jpg";
-import Polos3 from "./assets/Polos/Polos3.jpg";
-import Polos4 from "./assets/Polos/Polos4.jpg"; //Ethnic dress
+import polos1 from "./assets/polos/polos1.jpg"; //fORMAL DRESS
+import polos2 from "./assets/polos/polos2.jpg";
+import polos3 from "./assets/polos/polos3.jpg";
+import polos4 from "./assets/polos/polos4.jpg"; //Ethnic dress
 import Ethnic1 from "./assets/Ethnic/Ethnic1.jpg";
 import Ethnic2 from "./assets/Ethnic/Ethnic2.jpg";
 import Ethnic3 from "./assets/Ethnic/Ethnic3.jpg";
@@ -62,16 +63,16 @@ function App() {
       id: 12,name: "Athleisure & Sportswear",price: 499,category: "Athleisure & Sportswear", image: Sportwear4
     },
     {
-      id: 13,name: "T-Shirts & Polos",price: 499,category: "T-Shirts & Polos", image: Polos1
+      id: 13,name: "T-Shirts & polos",price: 499,category: "T-Shirts & polos", image: polos1
     },
     {
-      id: 14,name: "T-Shirts & Polos",price: 499,category: "T-Shirts & Polos", image: Polos2
+      id: 14,name: "T-Shirts & polos",price: 499,category: "T-Shirts & polos", image: polos2
     },
     {
-      id: 15,name: "T-Shirts & Polos",price: 499,category: "T-Shirts & Polos", image: Polos3
+      id: 15,name: "T-Shirts & polos",price: 499,category: "T-Shirts & polos", image: polos3
     },
     {
-      id: 16,name: "T-Shirts & Polos",price: 499,category: "T-Shirts & Polos", image: Polos4
+      id: 16,name: "T-Shirts & polos",price: 499,category: "T-Shirts & polos", image: polos4
     },
     {
       id: 17,name: "Ethnic & Festive Wear",price: 499,category: "Ethnic & Festive Wear", image: Ethnic1
@@ -186,7 +187,7 @@ function App() {
           <option value="Ethnic & Festive Wear">
             Ethnic & Festive Wear
           </option>
-          <option value="T-Shirts & Polos">T-Shirts & Polos</option>
+          <option value="T-Shirts & polos">T-Shirts & polos</option>
         </select>
       </section>
 
