@@ -162,8 +162,8 @@ function App() {
         </aside>
         
       </main>
-      <footer className="footer">
-  <p>© 2026 ShopEasy | Created by Mathan</p>
+      <footer className="footer"><a href="https://my-portfolio-tau-eosin-23.vercel.app/">
+  <p>© 2026 ShopEasy | Created by Mathan</p></a>
 </footer>
       
     </div>
