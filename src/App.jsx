@@ -162,7 +162,7 @@ function App() {
 
       <section className="hero">
         <h2>Men's Wear</h2>
-        <p>Trendy and comfortable men’s wear for every occasion.</p>
+        <p>Trendy and comfortable men’s wear for every occasion. Buy any one at 499</p>
       </section>
 
       <section className="filters">
